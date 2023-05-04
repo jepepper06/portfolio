@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <ul class="flex flex-wrap justify-around cont items-center">
+                <a href="#skills"><li class="header__links">skills</li></a>
+                <a href="#projects"><li class="header__links">projects</li></a>
+                <a href="#contact"><li class="header__links">contact</li></a>
+            </ul>
+        </div>
+    </header>
+    <div class="flex flex-wrap mt-10">
+        <div class="text-center mx-auto">
+            <img src="./imgs/photoDePerfil.jpg" alt="" class="rounded-full profile-img w-1/2">
+            <h2 class="text-2xl mt-6">Juan Castillo Ojeda</h2>
+        </div>
+        <div class="text-center mt-8 w-1/2 mx-auto md:w-1/2 skills__list">
+            <h2 class="text-2xl " id="skills">SKILLS</h2>
+            <ul class="flex flex-col justify-around h-full">
+                <li class="inline-block text-sm">HTML and CSS responsive layouts design</li>
+                <li class="inline-block text-sm">Angular CLI and Angular Framework</li>
+                <li class="inline-block text-sm">Java Spring APIs development</li>
+                <li class="inline-block text-sm">Tailwind CSS framework</li>
+                <li class="inline-block text-sm">SQL joins and relations</li>
+            </ul>
+        </div>
+    </div>
+    
+    <section class="ready px-8"> 
+        <h2 class="text-2xl mb-4"> Brief description of my self</h2>
+        <p>     
+            I'm a self taught developer, compromised with using code, to
+            solve real live problems, also, I'm a Physics degree student. I love
+            problems, I like to think out of the box, to give fresh solutions.
+        </p>
+    </section>
+    <div class="text-center mt-16 text-3xl">
+        <h2 id="projects">PROJECTS</h2>
+    </div>
+    <section class="ready px-8">
+        <a href="https://github.com/jepepper06/spring-basicEcomerce">
+            <img src="./imgs/APImage.webp" alt="" class="mb-7">
+        </a>
+        <h2 class="text-2xl mb-4">Spring bot eccomerce API</h2>
+        <p>
+            This is a job, for searching a solution for an eccomerce in Java, using 
+            spring boot, this app have jwt security, ssl encryption, and count with roles
+            , for editing and updating.
+        </p>
+    </section>
+    <section class="ready px-8">
+        <a href="https://pomodoro-counter.vercel.app/">
+            <img src="./imgs/happ.png" alt="" class="mb-7">
+        </a>
+        <h2 class="text-2xl mb-4">Hiit Clock</h2>
+        <p>
+            This, application surges as a solution to a real life problem, that I faced long time ago,
+            when training hiit, I needed to stop restart and set the rest interval, that wasn't accurate already.
+        </p>
+    </section>
+    <section class="ready px-8">
+        <a href="https://intrinsic-value-app.vercel.app">
+            <img src="./imgs/iVapp.png" alt="" class="mb-7">
+        </a>
+        <h2 class="text-2xl mb-4">Intrinsic Value App</h2>
+        <p>
+            This is an application for calculating the intrinsic value of a stock, it applies a method
+             from value investing philosophy, called the discounted cash flow model, to compute the fair value of a stock. 
+        </p>
+    </section>
+    <section class="ready px-8">
+        <a href="https://angular-cofee-app.vercel.app">
+            <img src="./imgs/cafeApp.jpg" alt="" class="mb-7">
+        </a>
+        <h2 class="text-2xl mb-4">Coffee Brand Landing Page</h2>
+        <p>
+            This is a landing page, of a brand of ecological coffee, showing the way they process this coffee.
+        </p>
+    </section>
+    <footer>
+        <div class="text-center">
+            <h2 class="text-2xl mt-6" id="contact">CONTACT</h2>
+        </div>
+        <ul class="flex flex-nowrap justify-around cont items-center">
+            <div><a href="https://github.com/jepepper06"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" class="inline"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg><li class="inline-block ml-2 text-xs">Github</li></a></div>
+            <div><a href="https://www.linkedin.com/in/juseb2327/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" class="inline"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg><li class="inline-block ml-2 text-xs">LinkedIn</li></a></div>
+        </ul>
+    </footer>
+</body>
+</html>
